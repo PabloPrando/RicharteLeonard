@@ -1,0 +1,101 @@
+footer{
+    background-color: #f8bae3;
+    margin: 10px 5px 0px 5px;
+    padding: 25px;
+
+    h3{
+        color: #fa15ae;
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        word-spacing: 35px;
+        font-size: 20px;
+        li{
+
+            .btn-primary{
+                border: none;
+                background: none;
+                
+
+                &:hover{
+                    background-color: #281cc9;
+                
+                }
+
+                .estilo-facebook{
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-family:'Nunito', sans-serif;
+                    font-weight: bold;
+                    list-style: none;
+                    background-color: #281cc9;
+                    padding: 5px;
+                                    
+                    
+                }
+            }
+                                   
+            .btn-secondary{
+                border: none;
+                background: none;
+                
+
+                &:hover{
+                    background: linear-gradient(#8a3ab9, #e95950, #fbad50) ;
+                
+
+                }
+                
+                .estilo-instagram{
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-family:'Nunito', sans-serif;
+                    font-weight: bold;
+                    list-style: none;
+                    background: linear-gradient(#8a3ab9, #e95950, #fbad50) ;
+                    border:none;
+                    padding: 5px;
+                    
+                    
+                }
+            }
+
+            
+            .btn-success{
+                border: none;
+                background: none;
+
+                &:hover{
+                    background-color: #04c90e ;
+                }
+
+                .estilo-whatsapp{
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-family:'Nunito', sans-serif;
+                    font-weight: bold;
+                    list-style: none;
+                    background-color: #04c90e;
+                    border: #04c90e;
+                    padding: 5px;
+                    
+                }     
+
+            }
+                      
+            
+        }
+    }
+}

@@ -1,0 +1,124 @@
+main{
+    section{
+        div{
+            .estilo-menu-contacto{
+                background-color: #f8bae3;
+                text-align: center; 
+                font-family: 'Nunito', sans-serif;
+                font-weight: bold;
+
+                .boton-nosotros{
+                    display: inline-block;
+                    margin: 20px;
+                    font-size: x-large;
+
+                    a{
+                        text-decoration: none;
+                        color: #fa15ae;
+                    }
+                    
+                }
+
+                .boton-atencion{
+                    display: inline-block;
+                    margin: 20px;
+                    font-size: x-large;
+
+                    a{
+                        text-decoration: none;
+                        color: #fa15ae;
+                        
+                    }
+                }
+
+                .boton-guia{
+                    display: inline-block;
+                    margin: 20px;
+                    font-size: x-large;
+
+                    a{
+                        text-decoration: none;
+                        color: #fa15ae;
+                    }
+                }
+            }
+        }
+    }
+
+    section{
+        .texto-nosotros{
+            color: #000000;
+            font-family:'Open Sans', sans-serif;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-align: justify;
+            margin: 20px;
+            padding: 20px;
+
+        }
+    }
+
+    section{
+        .estilo-parrafo-atencion{
+            color: #000000;
+            font-family:'Open Sans', sans-serif;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-align: justify;
+            padding: 20px;
+
+            .horarios{
+                margin: 20px;
+
+                h4{
+                    text-decoration: underline;
+                }
+                
+            }
+
+            .cambios{
+                margin: 20px;
+
+                h4{
+                    text-decoration: underline;
+                }
+                
+            }
+        }
+    }
+
+    section{
+        .flex-table{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .estilo-tabla{
+                text-align: center;
+                margin: 20px 5px;
+                padding: 20px;
+                caption-side: top;
+                border-collapse: unset;
+                border-width: medium;
+                border-color: #fa15ae;
+              
+
+                .titulo-tabla{
+                    color: #fa15ae ;
+                    font-family:'Nunito', sans-serif;
+                    font-size: 23px;
+                    font-weight: bold;
+                    text-align: center;
+
+                }
+
+                .categorias-tabla{
+                    background-color:#fa15ae;
+                   
+                }
+
+            }
+        }
+    }
+}
+

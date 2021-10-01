@@ -1,0 +1,27 @@
+main{
+    section{
+        .nombre-conjunto{
+            color: #fa15ae;
+            font-family: 'Nunito', sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: underline;
+            margin: 20px;
+        }
+
+        .flex-conjunto{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+
+            img{
+                width: 30vw;
+
+            }
+
+            
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    height: 300px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+    #header{
+        grid-area: header;
+
+    }
+
+    #main{
+        grid-area: main;
+       
+
+        section{
+            
+            .grid-container2{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+                grid-gap: 15px;
+                height: 200px;
+                grid-template-areas: 
+                "envio pago";
+                margin: 30px;
+
+                #envio{
+                    grid-area: envio;
+                }
+
+                #pago{
+                    grid-area: pago;
+                }
+            }
+
+
+        }
+    }
+    
+    #footer{
+        grid-area: footer;
+    }
+
+}

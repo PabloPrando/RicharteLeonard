@@ -1,0 +1,31 @@
+main{
+    section{
+            .flex-fotos{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                background-color: white;
+
+                img{
+                    width: 30vw;
+                }
+
+            }
+    }
+
+    section{
+        div{
+            .carousel-inner{
+                height: 400px;
+
+                img{
+                    width: 80%;
+                    max-height: 460px;
+                }
+            }
+        }
+    }
+
+    
+}

@@ -16,10 +16,25 @@ main{
             flex-direction: row;
             align-items: center;
 
-            img{
-                width: 30vw;
+            div{
+
+                img{
+                    width: 30vw;
+    
+                }
+
+                p{
+                    text-align: center;
+                    text-decoration: underline;
+                    color: #fa15ae;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
 
             }
+
+            
 
             
         }

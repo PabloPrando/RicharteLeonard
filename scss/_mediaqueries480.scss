@@ -12,9 +12,9 @@
 
     main{
         section{
-            div{
+            .tituloh1{
                 h1{
-                    font-size: 25px;
+                    font-size: 30px;
                 }
             }
 
@@ -39,24 +39,128 @@
                 }
 
             }
+
+            .flex-conjunto{
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                
+                div{
+                    margin-bottom: 5px;
+                }
+            }
+
+            .encaje{
+
+                .flex-less{
+                    flex-direction: column;
+                    align-items: center;
+
+                    div{
+                        img{
+                            width: 50vw;
+                        }
+                    }
+                    
+                }
+            }
+
+            .algodon{
+
+                .flex-less{
+                    flex-direction: column;
+                    align-items: center;
+
+                    div{
+                        img{
+                            width: 50vw;
+                        }
+                    }
+                }
+            }
+
+            div{
+
+                .estilo-menu-contacto{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0;
+
+                    .boton-nosotros{
+                        margin: 5px;
+                    }
+
+                    .boton-atencion{
+                        margin: 5px;
+                    }
+
+                    .boton-guia{
+                        margin: 5px;
+                    }
+                }
+
+            }
+
+            .texto-nosotros{
+                font-size: 15px;
+            }
+
+            .estilo-parrafo-atencion{
+                font-size: 15px;
+            }
+
+            .grid-container2{   
+                margin: 10px;           
+
+                div{
+
+                    .titulo-enviopago{
+                        font-size: 25px;
+                    }
+
+                    .parrafo-envio{
+                        font-size: 15px;
+                    }
+                }
+
+                div{
+                    .titulo-enviopago{
+                        font-size: 25px;
+                    }
+
+                    #mediospago{
+                        font-size: 15px;
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            
         }
     }
 
     footer{
         ul{
             padding-left: 0;
-
+            display: flex;
+            flex-direction: column;
+            
             li{
                 .estilo-facebook{
-                    font-size: 15px;
+                    font-size: 8px;
                 }
 
                 .estilo-instagram{
-                    font-size: 15px;
+                    font-size: 8px;
                 }
 
                 .estilo-whatsapp{
-                    font-size: 15px;
+                    font-size: 8px;
+                }
+
+                .btn{
+                    margin: 5px;
                 }
             }
         }

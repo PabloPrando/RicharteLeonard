@@ -58,12 +58,6 @@ main section .flex-fotos {
   main section .flex-fotos img {
     width: 30vw; }
 
-main section div .carousel-inner {
-  height: 400px; }
-  main section div .carousel-inner img {
-    width: 80%;
-    max-height: 460px; }
-
 main section div .titulo-less {
   color: #fa15ae;
   font-family: 'Nunito', sans-serif;
@@ -81,11 +75,11 @@ main section .encaje {
     font-weight: 600;
     text-align: left;
     text-decoration: underline; }
-  main section .encaje .flex-encaje {
+  main section .encaje .flex-less {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-    main section .encaje .flex-encaje img {
+    main section .encaje .flex-less img {
       width: 30vw; }
 
 main section .algodon {
@@ -97,6 +91,12 @@ main section .algodon {
     font-weight: 600;
     text-align: left;
     text-decoration: underline; }
+  main section .algodon .flex-less {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    main section .algodon .flex-less img {
+      width: 30vw; }
 
 main section .nombre-conjunto {
   color: #fa15ae;

@@ -30,8 +30,20 @@ main{
                 flex-direction: row;
                 justify-content: space-around;
 
-                img{
-                    width: 30vw;
+                div{
+                    img{
+                        width: 30vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        text-decoration: underline;
+                        color: #fa15ae;
+                        font-family: 'Nunito', sans-serif;
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+
                 }
 
             }
@@ -55,9 +67,23 @@ main{
                 flex-direction: row;
                 justify-content: space-around;
 
-                img{
-                    width: 30vw;
+                div{
+                    img{
+                        width: 30vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        text-decoration: underline;
+                        font-family: 'Nunito', sans-serif;
+                        color: #fa15ae;
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+
                 }
+
+                
 
             }
         }

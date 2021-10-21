@@ -105,7 +105,6 @@ main section .algodon {
       width: 30vw; }
     main section .algodon .flex-less div p {
       text-align: center;
-      text-decoration: underline;
       font-family: 'Nunito', sans-serif;
       color: #000000;
       font-size: 25px;
@@ -343,6 +342,27 @@ h1 {
   100% {
     margin-left: -50px; } }
 
+@media only screen and (max-width: 768px) {
+  header nav .estilo-ul-header li a {
+    font-size: 20px; }
+    header nav .estilo-ul-header li a img {
+      height: 15vh; }
+  main section .tituloh1 h1 {
+    font-size: 45px; }
+  main section .texto-nosotros {
+    font-size: 20px; }
+  main section .estilo-parrafo-atencion {
+    font-size: 20px; }
+  main section div div .titulo-enviopago {
+    font-size: 35px; }
+  main section div div .parrafo-envio {
+    font-size: 20px; }
+  main section div div .titulo-enviopago {
+    font-size: 35px; }
+  main section div div #mediospago {
+    font-size: 20px;
+    padding-left: 0px; } }
+
 @media only screen and (max-width: 480px) {
   header nav .estilo-ul-header {
     flex-wrap: wrap;
@@ -354,6 +374,8 @@ h1 {
   main section .flex-fotos {
     flex-direction: column;
     align-items: center; }
+    main section .flex-fotos img {
+      width: 70vw; }
     main section .flex-fotos div .card-body .card-title {
       font-size: 15px; }
     main section .flex-fotos div .card-body .card-text {
@@ -367,16 +389,18 @@ h1 {
     align-items: center; }
     main section .flex-conjunto div {
       margin-bottom: 5px; }
+      main section .flex-conjunto div img {
+        width: 70vw; }
   main section .encaje .flex-less {
     flex-direction: column;
     align-items: center; }
     main section .encaje .flex-less div img {
-      width: 50vw; }
+      width: 70vw; }
   main section .algodon .flex-less {
     flex-direction: column;
     align-items: center; }
     main section .algodon .flex-less div img {
-      width: 50vw; }
+      width: 70vw; }
   main section div .estilo-menu-contacto {
     display: flex;
     flex-direction: column;
@@ -414,10 +438,3 @@ h1 {
       font-size: 8px; }
     footer ul li .btn {
       margin: 5px; } }
-
-@media only screen and (max-width: 768px) {
-  header nav .estilo-ul-header {
-    justify-content: space-around;
-    padding: 10px; }
-    header nav .estilo-ul-header a {
-      font-size: 20px; } }

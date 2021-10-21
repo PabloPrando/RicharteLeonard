@@ -2,13 +2,58 @@
     header{
         nav{
             .estilo-ul-header{
-                justify-content: space-around;
-                padding: 10px;
+                li{
+                    a{
+                        font-size: 20px;
 
-                a{
-                    font-size: 20px;  
-                }
+                        img{
+                            height: 15vh;
+                        }
+                    }
+                };
             } 
+        }
+    }
+
+    main{
+        section{
+
+            .tituloh1{
+                h1{
+                    font-size: 45px;
+                }
+            }
+
+            .texto-nosotros{
+                font-size: 20px;
+            }
+
+            .estilo-parrafo-atencion{
+                font-size: 20px;
+            }
+
+            div{
+                div{
+                    .titulo-enviopago{
+                        font-size: 35px;
+                    }
+
+                    .parrafo-envio{
+                        font-size: 20px;
+                    }
+                }
+
+                div{
+                    .titulo-enviopago{
+                        font-size: 35px;
+                    }
+
+                    #mediospago{
+                        font-size: 20px;
+                        padding-left: 0px;
+                    }
+                }
+            }
         }
     }
 

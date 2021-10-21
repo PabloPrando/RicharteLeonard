@@ -22,6 +22,10 @@
                 flex-direction: column;
                 align-items: center;
 
+                img{
+                    width: 70vw;
+                }
+
                 div{
                     .card-body{
                         .card-title{
@@ -48,6 +52,10 @@
                 
                 div{
                     margin-bottom: 5px;
+
+                    img{
+                        width: 70vw;
+                    }
                 }
             }
 
@@ -59,7 +67,7 @@
 
                     div{
                         img{
-                            width: 50vw;
+                            width: 70vw;
                         }
                     }
                     
@@ -74,7 +82,7 @@
 
                     div{
                         img{
-                            width: 50vw;
+                            width: 70vw;
                         }
                     }
                 }

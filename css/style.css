@@ -83,8 +83,7 @@ main section .encaje {
       width: 30vw; }
     main section .encaje .flex-less div p {
       text-align: center;
-      text-decoration: underline;
-      color: #fa15ae;
+      color: #000000;
       font-family: 'Nunito', sans-serif;
       font-size: 25px;
       font-weight: bold; }
@@ -130,8 +129,7 @@ main section .flex-conjunto {
     width: 30vw; }
   main section .flex-conjunto div p {
     text-align: center;
-    text-decoration: underline;
-    color: #fa15ae;
+    color: #000000;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: bold; }
